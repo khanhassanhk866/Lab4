@@ -1,0 +1,78 @@
+## Lab 04
+
+- Name: Hassanullah khan
+- Email: khan.143@wright.edu
+
+## Part 1 
+
+Make sure the following files are in your GitHub repository
+- validator (with commits for each step complete)
+- `clean1.txt` through `clean4.txt`
+
+## Part 2 Answers
+
+1. <#>Regex cheat sheet
+
+<##>Special characters
+
+    <->\ = Indicates that the following character should be treated specially, or "escaped"
+    <->^ = Matches the beginning of input
+    <->$ = Matches the end of input
+    <->x* = Matches the preceding item "x" 0 or more times
+    <->x+ = Matches the preceding item "x" 1 or more times. Equivalent to {1,}
+    <->x? = Matches the preceding item "x" 0 or 1 times
+
+2. <##>Character classes
+
+    <->\w = Matches any alphanumeric character from the basic Latin alphabet, including the underscore. Equivalent to [A-Za-z0-9_]
+    <->\W = Matches any character that is not a word character from the basic Latin alphabet. Equivalent to [^A-Za-z0-9_]
+    <->\d = Matches any digit (Arabic numeral). Equivalent to [0-9]
+    <->\D = Matches any character that is not a digit (Arabic numeral). Equivalent to [^0-9]
+    <->\s = Matches a single white space character, including space, tab, form feed, line feed, and other Unicode spaces
+    <->\S = Matches a single character other than white space.
+
+
+## Part 3 Answers
+
+1.Bill, bilbo
+
+2.bob.4@wright.edu, jangle.12@not.edu, holden.98@space.edu, tavern.23@bar.com, baggins.2@wright.edu
+
+3.Bobo, Bob: bob.4@wright.edu, 
+Dun, Kay: kay.dun@wright.edu, 
+Carter, John: carter.87@wright.edu,
+ Jacob, John: jacob.89@wright.edu, 
+ Connor, Sarah: connor.99@wright.edu,
+Abrams, Casey: casey.abrams@wright.edu,
+ Hawkings, Steven: hawkings.51@wright.edu,
+ Baggins, Frodo: baggins.2@wright.edu,
+ Gamgee, Samwise: gamgee.1@wright.edu,
+ Cares, Corey: cares.12@wright.edu,
+ Adams, Douglas: douglas.adams@wright.edu
+ 
+4. Bobo Favourite number is: 42
+ Connor Favourite number is: 54
+ Abrams Favourite number is: 22
+ Baggins Favourite number is: 42
+ Adams Favourite number is: 78
+
+  5. Bob Bobo bob.4@wright.edu 42 N0T@PL@!NP@$$W0RD
+Kathy Cat cat.123@ohio.edu 8 N0T@PL@!NP@$$W0RD
+John Jangle jangle.12@not.edu 42 N0T@PL@!NP@$$W0RD
+Kay Dun kay.dun@wright.edu 45  N0T@PL@!NP@$$W0RD
+John Carter carter.87@wright.edu 98 N0T@PL@!NP@$$W0RD
+Bill Nye nye.42@space.edu 23  N0T@PL@!NP@$$W0RD
+John Jacob jacob.89@wright.edu 90 N0T@PL@!NP@$$W0RD
+Sarah Connor connor.99@wright.edu 54 N0T@PL@!NP@$$W0RD
+James Holden holden.98@space.edu 42 N0T@PL@!NP@$$W0RD
+Todd Tavern tavern.23@bar.com 42 N0T@PL@!NP@$$W0RD
+James Pumpkin pumpkin@farm.com 44 N0T@PL@!NP@$$W0RD
+Casey Abrams casey.abrams@wright.edu 22  N0T@PL@!NP@$$W0RD
+Commander Zavala zavala@indeed.com 90 N0T@PL@!NP@$$W0RD
+Steven Hawkings hawkings.51@wright.edu 54 N0T@PL@!NP@$$W0RD
+Bilbo Baggins baggins@shire.com 10 N0T@PL@!NP@$$W0RD
+Frodo Baggins baggins.2@wright.edu 42 N0T@PL@!NP@$$W0RD
+Samwise Gamgee gamgee.1@wright.edu 24 N0T@PL@!NP@$$W0RD
+Alex Cross cross.10@ohio.edu 92 N0T@PL@!NP@$$W0RD
+Corey Cares cares.12@wright.edu 56 N0T@PL@!NP@$$W0RD
+Douglas Adams douglas.adams@wright.edu 78 N0T@PL@!NP@$$W0RD
